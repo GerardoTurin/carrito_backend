@@ -19,7 +19,7 @@ productRouter.post('/',
 
 
 productRouter.get('/', 
-                    checkAuth,
+                    //checkAuth,
                     getProducts );
 
 
