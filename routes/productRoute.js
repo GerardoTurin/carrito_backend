@@ -14,7 +14,7 @@ const productRouter = Router();
 
 
 productRouter.post('/', 
-                        checkAuth, 
+                        //checkAuth, 
                         createProduct );
 
 
