@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import checkAuth from '../middlewares/authCheck.js';
+//import checkAuth from '../middlewares/authCheck.js';
 import { getProducts, createProduct } from '../controllers/productComtroller.js';
 //import { upload } from '../utils/fileUpload.js';
 
