@@ -40,7 +40,7 @@ class Server {
 
             // Cors
             this.app.use( cors({
-                origin: ['http://localhost:5173', 'https://inventory-app-mern.netlify.app'],
+                origin: ['http://localhost:5173', 'https://merry-empanada-3b778a.netlify.app'],
                 credentials: true
             }) ); // use: para usar un middleware
 
